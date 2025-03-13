@@ -13,9 +13,6 @@ public class WatterBottle : MonoBehaviour
     [SerializeField]
     AudioSource _audioSource;
 
-    float _minTiltAngle = 270f;
-    float _maxTiltAngle = 90f;
-
     Quaternion _initRot;
     bool _isSoundPLayed;
 
