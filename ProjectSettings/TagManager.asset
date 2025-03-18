@@ -7,6 +7,7 @@ TagManager:
   - Cap
   - Card
   - Phone
+  - DoNotHide
   layers:
   - Default
   - TransparentFX

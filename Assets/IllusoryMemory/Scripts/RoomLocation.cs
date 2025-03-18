@@ -59,8 +59,11 @@ public class RoomLocation : MonoBehaviour
         {
             for (int i = 0; i < _currentRoom.transform.childCount; i++)
             {
-                if (_currentRoom.transform.GetChild(i).GetComponent<MeshRenderer>())
-                    _currentRoom.transform.GetChild(i).GetComponent<MeshRenderer>().enabled = _isRoomHide;
+                if(_currentRoom.transform.GetChild(i).gameObject.tag != "DoNotHide")
+                {
+                    if (_currentRoom.transform.GetChild(i).GetComponent<MeshRenderer>())
+                        _currentRoom.transform.GetChild(i).GetComponent<MeshRenderer>().enabled = _isRoomHide;
+                }
             }
             _isRoomHide = !_isRoomHide;
         }
