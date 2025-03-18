@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7279355607212635044}
   - component: {fileID: 7629508612446471773}
   - component: {fileID: 3591279154576484816}
+  - component: {fileID: 2129788196524823056}
   m_Layer: 0
   m_Name: PostIt
   m_TagString: Untagged
@@ -177,6 +178,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 7629508612446471773}
   _colliders:
   - {fileID: 7629508612446471773}
+--- !u!114 &2129788196524823056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577031630790252582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1106028173547650386
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,6 +205,7 @@ GameObject:
   - component: {fileID: 5760447907226954820}
   - component: {fileID: 1639960867687356677}
   - component: {fileID: 2520347477421035322}
+  - component: {fileID: 282339469957399914}
   m_Layer: 0
   m_Name: PostIt (7)
   m_TagString: Untagged
@@ -354,6 +368,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 1639960867687356677}
   _colliders:
   - {fileID: 1639960867687356677}
+--- !u!114 &282339469957399914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106028173547650386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1239176776646435268
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,9 +407,9 @@ Transform:
   m_GameObject: {fileID: 1239176776646435268}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.278, y: 0.0010000467, z: 0.021000028}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0.1, y: 0.0010000467, z: 0.395}
+  m_LocalScale: {x: 0.74999994, y: 0.74999994, z: 0.74999994}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1749281140332232302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -452,6 +478,7 @@ GameObject:
   - component: {fileID: 862462796122530709}
   - component: {fileID: 490980972852460446}
   - component: {fileID: 2720554258768172425}
+  - component: {fileID: 305229607619196954}
   m_Layer: 0
   m_Name: PostIt (6)
   m_TagString: Untagged
@@ -614,6 +641,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 490980972852460446}
   _colliders:
   - {fileID: 490980972852460446}
+--- !u!114 &305229607619196954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333541761570010714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1652982053234917844
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,9 +680,9 @@ Transform:
   m_GameObject: {fileID: 1652982053234917844}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.277, y: 0.0010000467, z: 0.021000028}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.094, y: 0.0010000467, z: 0.2}
+  m_LocalScale: {x: 0.74999994, y: 0.74999994, z: 0.74999994}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1749281140332232302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -712,6 +751,7 @@ GameObject:
   - component: {fileID: 6740201286922911784}
   - component: {fileID: 1349648488682958535}
   - component: {fileID: 6780869868382280796}
+  - component: {fileID: 8628830036814351930}
   m_Layer: 0
   m_Name: PostIt (11)
   m_TagString: Untagged
@@ -874,6 +914,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 1349648488682958535}
   _colliders:
   - {fileID: 1349648488682958535}
+--- !u!114 &8628830036814351930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096474931521711283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2177281518305476750
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,9 +953,9 @@ Transform:
   m_GameObject: {fileID: 2177281518305476750}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.127, y: 0.0010000467, z: 0.23400003}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.094, y: 0.0010000467, z: 0.395}
+  m_LocalScale: {x: 0.74999994, y: 0.74999994, z: 0.74999994}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1749281140332232302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -972,6 +1024,7 @@ GameObject:
   - component: {fileID: 6019178218761486683}
   - component: {fileID: 5291066618507507619}
   - component: {fileID: 8636809014233779568}
+  - component: {fileID: 3385118386310071004}
   m_Layer: 0
   m_Name: PostIt (9)
   m_TagString: Untagged
@@ -1134,6 +1187,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 5291066618507507619}
   _colliders:
   - {fileID: 5291066618507507619}
+--- !u!114 &3385118386310071004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2439506758422625216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3239859336245410777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,6 +1214,7 @@ GameObject:
   - component: {fileID: 5534543997699574688}
   - component: {fileID: 3622958190215242738}
   - component: {fileID: 7069520936773043838}
+  - component: {fileID: 4250918549002512465}
   m_Layer: 0
   m_Name: PostIt (1)
   m_TagString: Untagged
@@ -1311,6 +1377,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 3622958190215242738}
   _colliders:
   - {fileID: 3622958190215242738}
+--- !u!114 &4250918549002512465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239859336245410777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3401813531164356695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,6 +1452,7 @@ GameObject:
   - component: {fileID: 5014197100603132291}
   - component: {fileID: 7579233846326163831}
   - component: {fileID: 2489762341552016939}
+  - component: {fileID: 1419075571659823345}
   m_Layer: 0
   m_Name: PostIt (3)
   m_TagString: Untagged
@@ -1536,6 +1615,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 7579233846326163831}
   _colliders:
   - {fileID: 7579233846326163831}
+--- !u!114 &1419075571659823345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3451443799211516211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5039856430006545712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,6 +1642,7 @@ GameObject:
   - component: {fileID: 1297614290430138368}
   - component: {fileID: 5548012414846094285}
   - component: {fileID: 1022650858035374423}
+  - component: {fileID: 4610266978603522776}
   m_Layer: 0
   m_Name: PostIt (10)
   m_TagString: Untagged
@@ -1713,6 +1805,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 5548012414846094285}
   _colliders:
   - {fileID: 5548012414846094285}
+--- !u!114 &4610266978603522776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5039856430006545712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5344640823449096132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,6 +1915,7 @@ GameObject:
   - component: {fileID: 8610625362570995234}
   - component: {fileID: 90324516923001001}
   - component: {fileID: 7383006743006215454}
+  - component: {fileID: 13609108548676046}
   m_Layer: 0
   m_Name: PostIt (5)
   m_TagString: Untagged
@@ -1973,6 +2078,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 90324516923001001}
   _colliders:
   - {fileID: 90324516923001001}
+--- !u!114 &13609108548676046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5467518032495116964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6075075813429137905
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,9 +2117,9 @@ Transform:
   m_GameObject: {fileID: 6075075813429137905}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.127, y: 0.0010000467, z: 0.23699999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0.1, y: 0.0010000467, z: 0.2}
+  m_LocalScale: {x: 0.74999994, y: 0.74999994, z: 0.74999994}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1749281140332232302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2071,6 +2188,7 @@ GameObject:
   - component: {fileID: 8899740732989132944}
   - component: {fileID: 4880024731480584268}
   - component: {fileID: 3257582216502440994}
+  - component: {fileID: 843973234248931419}
   m_Layer: 0
   m_Name: PostIt (2)
   m_TagString: Untagged
@@ -2233,6 +2351,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 4880024731480584268}
   _colliders:
   - {fileID: 4880024731480584268}
+--- !u!114 &843973234248931419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7801433079693577143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8026664552453085942
 GameObject:
   m_ObjectHideFlags: 0
@@ -2248,6 +2378,7 @@ GameObject:
   - component: {fileID: 5666814546848056221}
   - component: {fileID: 5761335540585984455}
   - component: {fileID: 5923708943238702550}
+  - component: {fileID: 472962645273822988}
   m_Layer: 0
   m_Name: PostIt (4)
   m_TagString: Untagged
@@ -2410,6 +2541,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 5761335540585984455}
   _colliders:
   - {fileID: 5761335540585984455}
+--- !u!114 &472962645273822988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026664552453085942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8877267577856190642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,6 +2568,7 @@ GameObject:
   - component: {fileID: 8488198642599556080}
   - component: {fileID: 5590837688245752025}
   - component: {fileID: 1154181936581844312}
+  - component: {fileID: 7177850038265593557}
   m_Layer: 0
   m_Name: PostIt (8)
   m_TagString: Untagged
@@ -2587,3 +2731,15 @@ MonoBehaviour:
   _boundsCollider: {fileID: 5590837688245752025}
   _colliders:
   - {fileID: 5590837688245752025}
+--- !u!114 &7177850038265593557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8877267577856190642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

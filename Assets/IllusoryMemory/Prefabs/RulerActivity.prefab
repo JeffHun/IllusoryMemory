@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 612680564903019366}
   - component: {fileID: 174188206883607522}
   - component: {fileID: 6790453307292839516}
+  - component: {fileID: 1860842836800973403}
   m_Layer: 0
   m_Name: Ruler
   m_TagString: Untagged
@@ -106,8 +107,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.033311658, y: 0.21517143, z: 0.003187421}
-  m_Center: {x: 0, y: 0, z: 0.0015936896}
+  m_Size: {x: 0.03852129, y: 0.21816581, z: 0.0075000226}
+  m_Center: {x: 3.1322517e-17, y: 8.854154e-16, z: 0.0015936896}
 --- !u!54 &612680564903019366
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -177,6 +178,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 5044171752125350732}
   _colliders:
   - {fileID: 5044171752125350732}
+--- !u!114 &1860842836800973403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837808932873073978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1712259656198102114
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,6 +311,7 @@ GameObject:
   - component: {fileID: 2993832735500734622}
   - component: {fileID: 6236077407890054757}
   - component: {fileID: 701569131377944865}
+  - component: {fileID: 4967347440205556826}
   m_Layer: 0
   m_Name: Pen
   m_TagString: Untagged
@@ -460,6 +474,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 2993832735500734622}
   _colliders:
   - {fileID: 2993832735500734622}
+--- !u!114 &4967347440205556826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433721591118635262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2845749434051355225
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +501,7 @@ GameObject:
   - component: {fileID: 5201920319299052173}
   - component: {fileID: 1441387783160429315}
   - component: {fileID: 132041513369547059}
+  - component: {fileID: 8791074303881322406}
   m_Layer: 0
   m_Name: Pen (1)
   m_TagString: Untagged
@@ -637,6 +664,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 5201920319299052173}
   _colliders:
   - {fileID: 5201920319299052173}
+--- !u!114 &8791074303881322406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2845749434051355225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7301891596250324715
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,6 +727,7 @@ GameObject:
   - component: {fileID: 2166314334293547913}
   - component: {fileID: 9097705862487501629}
   - component: {fileID: 2366989940351795278}
+  - component: {fileID: 4482893868183233807}
   m_Layer: 0
   m_Name: Pen (2)
   m_TagString: Untagged
@@ -850,3 +890,15 @@ MonoBehaviour:
   _boundsCollider: {fileID: 2166314334293547913}
   _colliders:
   - {fileID: 2166314334293547913}
+--- !u!114 &4482893868183233807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7807002906280518431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

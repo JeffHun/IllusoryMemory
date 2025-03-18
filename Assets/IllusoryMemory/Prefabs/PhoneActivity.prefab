@@ -26,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281964726133725744}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -2.7939678e-10, y: 1, z: 0.35}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -36,7 +36,7 @@ Transform:
   - {fileID: 6946133937279842658}
   - {fileID: 4610726681805142837}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4543488077168594735
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 7093835687882369441}
   - component: {fileID: 5198083052201828325}
   - component: {fileID: 4547173718479213188}
+  - component: {fileID: 1271846133934468821}
   m_Layer: 0
   m_Name: Phone
   m_TagString: Phone
@@ -473,6 +474,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4420810282019988501, guid: 207cba17899855340be3a24238ba0edf, type: 3}
+--- !u!114 &1271846133934468821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172861584349729707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9179742831594278790
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class RoomLocation : MonoBehaviour
 {
     [SerializeField] GameObject _roomPrefab;
     [SerializeField] float _translationSpeed, _rotationSpeed;
+    [SerializeField] ActivitiesGeneration _activitiesGeneration;
     GameObject _currentRoom;
     bool _isRoomSpawned = false;
     bool _isRoomHide = false;
@@ -62,6 +63,12 @@ public class RoomLocation : MonoBehaviour
                     _currentRoom.transform.GetChild(i).GetComponent<MeshRenderer>().enabled = _isRoomHide;
             }
             _isRoomHide = !_isRoomHide;
+        }
+
+        //right trigger = reset activity
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch) && _isRoomSpawned)
+        {
+            _activitiesGeneration.SpawnActivity(_currentRoom.transform);
         }
     }
 

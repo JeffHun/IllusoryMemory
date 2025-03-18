@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 5076008601677844405}
   - component: {fileID: 3553997102271535702}
   - component: {fileID: 5325280260219106269}
+  - component: {fileID: 3667499019512408011}
   m_Layer: 0
   m_Name: Cap
   m_TagString: Cap
@@ -263,6 +264,18 @@ MonoBehaviour:
   _boundsCollider: {fileID: 8876561693998275307}
   _colliders:
   - {fileID: 8876561693998275307}
+--- !u!114 &3667499019512408011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811372530929541915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &816990540562864491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5293,6 +5306,7 @@ GameObject:
   - component: {fileID: 2323972055803626465}
   - component: {fileID: 3531805199602693736}
   - component: {fileID: 2283764789858272248}
+  - component: {fileID: 1486676055579976513}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: Untagged
@@ -5569,6 +5583,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1486676055579976513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3166953936050261368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07838ea069102b4b873e9204be7456e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7961244544225413901
 GameObject:
   m_ObjectHideFlags: 0
