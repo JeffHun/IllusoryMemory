@@ -25719,6 +25719,12 @@ MonoBehaviour:
   _postit: {fileID: 3401813531164356695, guid: 67a0d15b9e00bbc49b81e3c05d1094fb, type: 3}
   _map: {fileID: 4315054025586490829, guid: 4b72c0def9aed7640ae052a5a5baaa63, type: 3}
   _ruler: {fileID: 7301891596250324715, guid: c522162bc99a79046b7e0c12e68797a6, type: 3}
+  _fan: {fileID: 4491845632223025892, guid: ec75a0608b372ce42b27b5c73cb4e4c9, type: 3}
+  _sunflower: {fileID: 3961826852768838344, guid: 73482cf36ee6e4c40be1fab1a9a5e43a,
+    type: 3}
+  _USBKey: {fileID: 8810226150375132929, guid: d8a74cd29d024c3419f8ca6efd31af5f, type: 3}
+  _calculator: {fileID: 7994523163119744213, guid: 060fe4a91bfd5d24eb0a9b9320af4fc2,
+    type: 3}
 --- !u!1 &1308862918
 GameObject:
   m_ObjectHideFlags: 0

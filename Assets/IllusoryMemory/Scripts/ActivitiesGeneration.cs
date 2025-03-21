@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ActivitiesGeneration : MonoBehaviour
 {
-    [SerializeField] GameObject _crumbledPaperBall, _lamp, _PC, _bottle, _phoneNumber, _phone, _story, _compositePortrait, _postit, _map, _ruler;
+    [SerializeField] GameObject _crumbledPaperBall, _lamp, _PC, _bottle, _phoneNumber, _phone, _story, _compositePortrait, _postit, _map, _ruler, _fan, _sunflower, _USBKey, _calculator;
 
     List<GameObject> _activities = new List<GameObject>();
 
@@ -52,6 +52,18 @@ public class ActivitiesGeneration : MonoBehaviour
                     break;
                 case "RulerSpawnPoint":
                     _activities.Add(Instantiate(_ruler, currentRoom.GetChild(i).position, currentRoom.GetChild(i).rotation));
+                    break;
+                case "FanSpawnPoint":
+                    _activities.Add(Instantiate(_fan, currentRoom.GetChild(i).position, currentRoom.GetChild(i).rotation));
+                    break;
+                case "SunflowerSpawnPoint":
+                    _activities.Add(Instantiate(_sunflower, currentRoom.GetChild(i).position, currentRoom.GetChild(i).rotation));
+                    break;
+                case "CalculatorSpawnPoint":
+                    _activities.Add(Instantiate(_calculator, currentRoom.GetChild(i).position, currentRoom.GetChild(i).rotation));
+                    break;
+                case "USBKeySpawnPoint":
+                    _activities.Add(Instantiate(_USBKey, currentRoom.GetChild(i).position, currentRoom.GetChild(i).rotation));
                     break;
             }
         }
