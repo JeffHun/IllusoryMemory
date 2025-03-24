@@ -25675,7 +25675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _roomPrefab: {fileID: 4578655419511360493, guid: b4091200eb7cb2e4cb6974707767f532,
     type: 3}
-  _translationSpeed: 1
+  _translationSpeed: 0.1
   _rotationSpeed: 10
   _activitiesGeneration: {fileID: 1304702187}
 --- !u!4 &1304702186
