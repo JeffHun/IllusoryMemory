@@ -9,9 +9,10 @@ public class Lamp : MonoBehaviour
     {
         if (other.gameObject.name == "HandIndex3-HandIndexTip CapsuleCollider")
         {
-            _light.intensity = _light.intensity + 1;
-            if (_light.intensity >= 4)
+            if(_light.intensity == 1)
                 _light.intensity = 0;
+            else
+                _light.intensity = 1;
         }
     }
 }

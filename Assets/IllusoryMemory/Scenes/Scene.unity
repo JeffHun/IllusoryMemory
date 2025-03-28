@@ -25725,6 +25725,7 @@ MonoBehaviour:
   _USBKey: {fileID: 8810226150375132929, guid: d8a74cd29d024c3419f8ca6efd31af5f, type: 3}
   _calculator: {fileID: 3026986520932797526, guid: 060fe4a91bfd5d24eb0a9b9320af4fc2,
     type: 3}
+  _tuto: {fileID: 2852493383058845459, guid: 04b5b8c23088dcd44801d6d22d78f1b8, type: 3}
 --- !u!1 &1308862918
 GameObject:
   m_ObjectHideFlags: 0
