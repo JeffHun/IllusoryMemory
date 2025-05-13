@@ -5486,7 +5486,7 @@ MonoBehaviour:
   _waterPS: {fileID: 8309524811524021284}
   _capSocket: {fileID: 1078505322547380029}
   _angleMax: 90
-  _audioSource: {fileID: 0}
+  _audioSource: {fileID: 2283764789858272248}
 --- !u!82 &2283764789858272248
 AudioSource:
   m_ObjectHideFlags: 0

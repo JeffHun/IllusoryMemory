@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &172202336478237888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4018314729383830392}
+  m_Layer: 0
+  m_Name: AgentSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4018314729383830392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172202336478237888}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3801449805332615511}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &192139905311377874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,6 +1727,7 @@ Transform:
   - {fileID: 5626252356746054402}
   - {fileID: 5533338333741095200}
   - {fileID: 5298343935381076593}
+  - {fileID: 4018314729383830392}
   - {fileID: 6315829646113656851}
   - {fileID: 6913762319755157773}
   - {fileID: 3097419252826957462}
@@ -2881,6 +2913,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TableB
       objectReference: {fileID: 0}
+    - target: {fileID: 7411094467954227655, guid: 61f51ba89aebf9348bbce702183eb51c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7895566111456256893, guid: 61f51ba89aebf9348bbce702183eb51c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3032,6 +3069,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
+        type: 3}
       propertyPath: m_TagString
       value: DoNotHide
       objectReference: {fileID: 0}
@@ -3133,6 +3175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TableTag (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
         type: 3}
@@ -3240,6 +3287,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
+        type: 3}
       propertyPath: m_TagString
       value: DoNotHide
       objectReference: {fileID: 0}
@@ -3266,6 +3318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TableA
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601532785404169349, guid: ed774818cb0cbf143acffa12a2cc631a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2121786110682601023, guid: ed774818cb0cbf143acffa12a2cc631a,
         type: 3}
@@ -3413,6 +3470,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
+        type: 3}
       propertyPath: m_TagString
       value: DoNotHide
       objectReference: {fileID: 0}
@@ -3514,6 +3576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TableTag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
         type: 3}
@@ -3621,6 +3688,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
+        type: 3}
       propertyPath: m_TagString
       value: DoNotHide
       objectReference: {fileID: 0}
@@ -3697,6 +3769,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Curtains (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ab13a998e3f92a247be1f32177afbec7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3799,6 +3876,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17006ea39e68f9241848606ae4019c95,
+        type: 3}
       propertyPath: m_TagString
       value: DoNotHide
       objectReference: {fileID: 0}
@@ -3876,6 +3958,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Curtains
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ab13a998e3f92a247be1f32177afbec7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3949,6 +4036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrashCan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439101434011129863, guid: 2c1c8fcefc4373545ba6c735e613df06,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3439101434011129863, guid: 2c1c8fcefc4373545ba6c735e613df06,
         type: 3}
@@ -4029,6 +4121,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Curtains (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ab13a998e3f92a247be1f32177afbec7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4107,6 +4204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Separation
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80b16cb61232a2348a83aad7f7d2e3d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

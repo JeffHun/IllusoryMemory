@@ -11,11 +11,15 @@ public class HandColliderFix : MonoBehaviour
 
     void Update()
     {
-        while(_capsules == null)
+        if (_capsules == null)
         {
-            _capsules = transform.Find("Capsules").gameObject;
+            Transform capsuleTransform = transform.Find("Capsules");
+            if (capsuleTransform != null)
+            {
+                _capsules = capsuleTransform.gameObject;
+            }
         }
-        
+
         if (_capsules != null && !_isCollidersListComplete)
         {
             _isCollidersListComplete = true;
