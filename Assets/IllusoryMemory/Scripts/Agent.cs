@@ -9,51 +9,123 @@ public class Agent : MonoBehaviour
     Transform _startPoint, _endPoint;
 
     [SerializeField]
-    float _speed = 2.0f;
+    float _speed = 2.0f, _waitDuration;
 
     Animator _animator;
-    bool isEntering = false, isFirstTurning = false, isSecondTurning = false, isExiting = false;
+    bool _isAnimStart = true;
+    bool _isAnimated = false;
     float _lerpTime = 0f;
+    AnimState agentState = AnimState.enter;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
     }
 
+    public void StartAgentAnim()
+    {
+        _isAnimStart = true;
+        agentState = AnimState.enter;
+    }
+
     void Update()
     {
-        AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
-        if (stateInfo.IsName("Enter"))
+        if(_isAnimStart)
         {
-            if (!isEntering)
+            if(agentState == AnimState.enter)
             {
-                isEntering = true;
-                _lerpTime = 0f;
+                if(_isAnimated == false)
+                {
+                    _animator.Play("Walk");
+                    _isAnimated = true;
+                }
+                _lerpTime += Time.deltaTime * _speed;
+                transform.position = Vector3.Lerp(_startPoint.position, _endPoint.position, _lerpTime);
+                if(_lerpTime >= 1)
+                {
+                    agentState = AnimState.firstTurn;
+                    _lerpTime = 0;
+                    _isAnimated = false;
+                }
             }
 
-            _lerpTime += Time.deltaTime * _speed;
-            transform.position = Vector3.Lerp(_startPoint.position, _endPoint.position, _lerpTime);
-        }
-        if (stateInfo.IsName("Wait") && !isFirstTurning)
-        {
-            isFirstTurning = true;
-            transform.Rotate(0f, -90f, 0f);
-        }
-        if(stateInfo.IsName("Exit") && !isSecondTurning)
-        {
-            isSecondTurning= true;
-            transform.Rotate(0f, -90f, 0f);
-        }
-        
-        if (stateInfo.IsName("Exit"))
-        {
-            if (!isExiting)
+            if(agentState == AnimState.firstTurn)
             {
-                isExiting = true;
-                _lerpTime = 0f;
+                if (_isAnimated == false)
+                {
+                    _animator.Play("Turn");
+                    _isAnimated = true;
+                }
+                AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+
+                if (stateInfo.IsName("Turn") && stateInfo.normalizedTime >= 1f)
+                {
+                    transform.Rotate(0f, -90f, 0f);
+                    agentState = AnimState.wait;
+                    _isAnimated = false;
+                }
             }
-            _lerpTime += Time.deltaTime * _speed;
-            transform.position = Vector3.Lerp(_endPoint.position, _startPoint.position, _lerpTime);
+
+            if (agentState == AnimState.wait)
+            {
+                if (_isAnimated == false)
+                {
+                    _animator.Play("Wait");
+                    _isAnimated = true;
+                }
+                _lerpTime += Time.deltaTime;
+                if(_lerpTime >= _waitDuration)
+                {
+                    _lerpTime = 0;
+                    agentState = AnimState.secondTurn;
+                    _isAnimated = false;
+                }
+            }
+
+            if (agentState == AnimState.secondTurn)
+            {
+                if (_isAnimated == false)
+                {
+                    _animator.Play("Turn");
+                    _isAnimated = true;
+                }
+                AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+
+                if (stateInfo.IsName("Turn") && stateInfo.normalizedTime >= 1f)
+                {
+                    transform.Rotate(0f, -90f, 0f);
+                    agentState = AnimState.exit;
+                    _isAnimated = false;
+                }
+            }
+
+            if (agentState == AnimState.exit)
+            {
+                if (_isAnimated == false)
+                {
+                    _animator.Play("Walk");
+                    _isAnimated = true;
+                }
+                _lerpTime += Time.deltaTime * _speed;
+                transform.position = Vector3.Lerp(_endPoint.position, _startPoint.position, _lerpTime);
+                if (_lerpTime >= 1)
+                {
+                    agentState = AnimState.none;
+                    _lerpTime = 0;
+                    _isAnimated = false;
+                    transform.Rotate(0f, 180f, 0f);
+                }
+            }
         }
+    }
+
+    public enum AnimState
+    {
+        none,
+        enter,
+        firstTurn,
+        wait,
+        secondTurn,
+        exit
     }
 }
