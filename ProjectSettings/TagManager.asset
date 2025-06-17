@@ -8,6 +8,8 @@ TagManager:
   - Card
   - Phone
   - DoNotHide
+  - Coffee
+  - Mug
   layers:
   - Default
   - TransparentFX

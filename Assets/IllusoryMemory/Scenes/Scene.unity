@@ -25635,6 +25635,8 @@ MonoBehaviour:
     type: 3}
   _tuto: {fileID: 2852493383058845459, guid: 04b5b8c23088dcd44801d6d22d78f1b8, type: 3}
   _agent: {fileID: 71911895384507217, guid: d70287dd388c87749b2a4d702da0b32e, type: 3}
+  _mug: {fileID: 5785761913307135729, guid: 6f942a7e8d6501d43a417e2dab6e54dd, type: 3}
+  _saucer: {fileID: 1450476551777774092, guid: 6a8930207ecfef141bf4425f0bb05957, type: 3}
 --- !u!1 &1308862918
 GameObject:
   m_ObjectHideFlags: 0

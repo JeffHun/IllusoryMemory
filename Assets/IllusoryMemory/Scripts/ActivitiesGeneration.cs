@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ActivitiesGeneration : MonoBehaviour
 {
-    [SerializeField] GameObject _crumbledPaperBall, _lamp, _PC, _bottle, _phoneNumber, _phone, _story, _compositePortrait, _postit, _map, _ruler, _fan, _sunflower, _USBKey, _calculator, _tuto, _agent;
+    [SerializeField] GameObject _crumbledPaperBall, _lamp, _PC, _bottle, _phoneNumber, _phone, _story, _compositePortrait, _postit, _map, _ruler, _fan, _sunflower, _USBKey, _calculator, _tuto, _agent, _mug, _saucer;
 
     List<GameObject> _activities = new List<GameObject>();
 
@@ -70,6 +70,12 @@ public class ActivitiesGeneration : MonoBehaviour
                     break;
                 case "AgentSpawnPoint":
                     _activities.Add(Instantiate(_agent, currentRoom.GetChild(i).position, currentRoom.GetChild(i).rotation));
+                    break;
+                case "MugSpawnPoint":
+                    _activities.Add(Instantiate(_mug, currentRoom.GetChild(i).position, currentRoom.GetChild(i).rotation));
+                    break;
+                case "SaucerSpawnPoint":
+                    _activities.Add(Instantiate(_saucer, currentRoom.GetChild(i).position, currentRoom.GetChild(i).rotation));
                     break;
             }
         }

@@ -12,10 +12,11 @@ public class Agent : MonoBehaviour
     float _speed = 2.0f, _waitDuration;
 
     Animator _animator;
-    bool _isAnimStart = true;
+    bool _isAnimStart = false;
     bool _isAnimated = false;
     float _lerpTime = 0f;
     AnimState agentState = AnimState.enter;
+    bool _isTalking = false;
 
     private void Start()
     {
@@ -24,8 +25,11 @@ public class Agent : MonoBehaviour
 
     public void StartAgentAnim()
     {
-        _isAnimStart = true;
-        agentState = AnimState.enter;
+        if(!_isAnimStart)
+        {
+            _isAnimStart = true;
+            agentState = AnimState.enter;
+        }
     }
 
     void Update()
@@ -79,6 +83,11 @@ public class Agent : MonoBehaviour
                     _lerpTime = 0;
                     agentState = AnimState.secondTurn;
                     _isAnimated = false;
+                }
+                if (!_isTalking)
+                {
+                    GetComponent<AudioSource>().Play();
+                    _isTalking = true;
                 }
             }
 
