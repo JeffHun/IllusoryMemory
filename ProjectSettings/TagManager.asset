@@ -10,6 +10,7 @@ TagManager:
   - DoNotHide
   - Coffee
   - Mug
+  - Ruler
   layers:
   - Default
   - TransparentFX

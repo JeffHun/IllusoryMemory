@@ -552,3 +552,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba55c1c210f928547867715e35af05fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _tag: Phone
